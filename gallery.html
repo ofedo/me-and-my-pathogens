@@ -20,7 +20,7 @@
 
   .grid-container {
     display: grid;
-    grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 
   .grid-item {
@@ -42,6 +42,12 @@
     height: 100%;
     width: 100%;
   }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
 </style>
 
 <body>
@@ -51,8 +57,53 @@
 
   <div class="grid-container">
     <div class="grid-item">
+      <h3>Clujotronic 2020 #1</h3>
+      <img src="gallery/Clujotronic00001.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #2</h3>
+      <img src="gallery/Clujotronic00002.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #3</h3>
+      <img src="gallery/Clujotronic00003.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #4</h3>
+      <img src="gallery/Clujotronic00004.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #5</h3>
+      <img src="gallery/Clujotronic00005.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #6</h3>
+      <img src="gallery/Clujotronic00006.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #7</h3>
+      <img src="gallery/Clujotronic00007.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #8</h3>
+      <img src="gallery/Clujotronic00008.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #9</h3>
+      <img src="gallery/Clujotronic00009.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #10</h3>
+      <img src="gallery/Clujotronic00010.jpg" />
+    </div>
+    <div class="grid-item">
+      <h3>Clujotronic 2020 #11</h3>
+      <img src="gallery/Clujotronic00011.jpg" />
+    </div>
+    
+    <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Bogdan Iacob - STIRE DE ULTIMA ORA - O SA MURIM CU TOTII.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Bogdan Iacob - STIRE DE ULTIMA ORA - O SA MURIM CU TOTII.webm" type="video/mp4">
       </video>
       <h3>
         <div>Bogdan Iacob - ȘTIRE DE ULTIMĂ ORĂ: O SĂ MURIM CU TOȚII</div>
@@ -62,7 +113,7 @@
     </div>
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Bogdan Iacob - Timing beats speed wisdom beats computation.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Bogdan Iacob - Timing beats speed wisdom beats computation.webm" type="video/mp4">
       </video>
       <h3>
         <div>Bogdan Iacob - Timing beats speed, wisdom beats computation</div>
@@ -72,7 +123,7 @@
     </div>
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Me and my pathogens - Life in lockdown M1.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Me and my pathogens - Life in lockdown M1.webm" type="video/mp4">
       </video>
       <h3>Madeleine - Lockdown in UK #1
         <div><small>ENG</small></div>
@@ -80,7 +131,7 @@
     </div>
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Me and my pathogens - Life in lockdown M2.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Me and my pathogens - Life in lockdown M2.webm" type="video/mp4">
       </video>
       <h3>Madeleine - Lockdown in UK #2
         <div><small>ENG</small></div>
@@ -89,7 +140,7 @@
 
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Me and my pathogens - Life in lockdown A1.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Me and my pathogens - Life in lockdown A1.webm" type="video/mp4">
       </video>
       <h3>Andreea - Life in lockdown #1
         <div><small>RO</small></div>
@@ -97,7 +148,7 @@
     </div>
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Me and my pathogens - Life in lockdown A2.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Me and my pathogens - Life in lockdown A2.webm" type="video/mp4">
       </video>
       <h3>Andreea - Life in lockdown #2
         <div><small>RO</small></div>
@@ -106,15 +157,15 @@
 
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Me and my pathogens - Broken music box O1.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Me and my pathogens - Broken music box O1.webm" type="video/mp4">
       </video>
-      <h3>Octavian - My music box is broken #1</h3>
+      <h3>Octavian - My atonal music box #1</h3>
     </div>
     <div class="grid-item">
       <video controls>
-        <source type="video/webm" src="videos/RecordedVideo - Me and my pathogens - Broken music box O2.webm" type="video/mp4">
+        <source type="video/webm" src="gallery/RecordedVideo - Me and my pathogens - Broken music box O2.webm" type="video/mp4">
       </video>
-      <h3>Octavian - My music box is broken #2</h3>
+      <h3>Octavian - My atonal music box #2</h3>
     </div>
 
   </div>
