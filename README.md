@@ -1,6 +1,8 @@
 # me-and-my-pathogens
 
 Project developed for the Clujotronic 2020 | Electro Arts Festival > Hybrid Edition, as an online and onsite interactive installation, exhibited at The Art Museum of Cluj-Napoca, 2-4 October 2020.
+https://www.clujotronic.ro
+https://www.macluj.ro/events/clujotronic-electro-arts-festival-hybrid-edition
 
 The project aims to reflect on the current global state of emergency, marked by the presence of the COVID-19 pandemic.
 The public is invited to enter a virtual mirror space where visual artefacts are superimposed. Like a sort of rudimentary social-media video filter, the digital effects revolve around the observer’s face and movements. But instead of pink hearts or rabbit ears, the virtual debris looks tiny and abstract, more like an aura of digital micro-organisms and pathogens.
